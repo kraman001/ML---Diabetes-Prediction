@@ -68,8 +68,8 @@ else:
 ## Results
 
 The accuracy of the model is evaluated using the accuracy score on both training and test datasets. Below are the performance metrics:
-- **Training Accuracy**: `X%` (78.66)
-- **Test Accuracy**: `Y%` (77.27)
+- **Training Accuracy**: `X%` (78.66%)
+- **Test Accuracy**: `Y%` (77.27%)
 
 ## Future Improvements
 
