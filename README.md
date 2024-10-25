@@ -9,6 +9,7 @@ This repository contains a machine learning model built to predict whether a per
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [Results](#results)
+- [Key Highlights of the Project](#key-highlights-of-the-project)
 - [Future Improvements](#future-improvements)
 - [Code Structure](#code-structure)
 
@@ -80,23 +81,23 @@ Potential improvements to increase model accuracy and generalizability include:
 - **Hyperparameter Tuning**: Adjusting parameters of the SVM model for optimized performance.
 - **Ensemble Learning**: Combining multiple models to enhance predictive power.
 
-### Key Highlights of the Project:
+### Key Highlights of the Project
 This Project implements a machine learning model to predict diabetes based on patient data from the PIMA Diabetes Dataset. Here’s a summary of the key components:
 
-### Data Collection:
+ **Data Collection**:
 
 - The dataset is loaded using Pandas.
 - The data consists of features such as Pregnancies, Glucose, Blood Pressure, Skin Thickness, Insulin, BMI, Diabetes Pedigree Function, and Age, with the target variable being Outcome (0 = Non-Diabetic, 1 = Diabetic).
 
-### Data Preprocessing:
+ **Data Preprocessing**:
 -  ``StandardScaler`` is used to scale the input features, ensuring that all features are on a similar scale for better performance of the model.
 -  The data is split into features (X) and the target label (Y).
 
-### Model Building:
+ **Model Building**:
 - The **Support Vector Machine (SVM)** algorithm is used to train the model.
 - The dataset is split into training and test sets using ``train_test_split``.
 
-### Model Evaluation:
+ **Model Evaluation**:
 - The performance of the model is evaluated using the  **accuracy** score on both the training and testing data.
 - The accuracy of training data is **78%** and for test data is **77%**.
 
