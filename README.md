@@ -124,28 +124,33 @@ diabetes_dataset = pd.read_csv('/content/diabetes.csv')
 # printing the first 5 rows of the dataset
 diabetes_dataset.head()
 ```
+![1 github](https://github.com/user-attachments/assets/8e7250a1-2af7-42e7-a4d7-419c22de8b80)
 
 ### Code Snippet 4
 ```python
 # number of rows and Columns in this dataset
 diabetes_dataset.shape
 ```
+![2 0](https://github.com/user-attachments/assets/48dcd9af-2112-4825-831f-c3f14406b016)
 
 ### Code Snippet 5
 ```python
 # getting the statistical measures of the data
 diabetes_dataset.describe()
 ```
+![k](https://github.com/user-attachments/assets/caec38fc-ea66-415c-818b-1b654854a009)
 
 ### Code Snippet 6
 ```python
 diabetes_dataset['Outcome'].value_counts()
 ```
+![3](https://github.com/user-attachments/assets/dd69db4e-63c7-4b67-a72f-b69f689d2d56)
 
 ### Code Snippet 7
 ```python
 diabetes_dataset.groupby('Outcome').mean()
 ```
+![4](https://github.com/user-attachments/assets/3b1e2c9a-ab4e-476d-8dfb-662d5e8c833a)
 
 ### Code Snippet 8
 ```python
@@ -158,11 +163,13 @@ Y = diabetes_dataset['Outcome']
 ```python
 print(X)
 ```
+![5](https://github.com/user-attachments/assets/e6bec1e7-2794-4f45-a1f9-0c75b46af821)
 
 ### Code Snippet 10
 ```python
 print(Y)
 ```
+![6](https://github.com/user-attachments/assets/391a6b82-61a9-4457-a19f-bad9f9ee47db)
 
 ### Code Snippet 11
 ```python
@@ -183,6 +190,7 @@ standardized_data = scaler.transform(X)
 ```python
 print(standardized_data)
 ```
+![7](https://github.com/user-attachments/assets/5e913544-e29e-43cb-8089-a0a3b0181a84)
 
 ### Code Snippet 15
 ```python
@@ -195,6 +203,7 @@ Y = diabetes_dataset['Outcome']
 print(X)
 print(Y)
 ```
+![8](https://github.com/user-attachments/assets/9a34fb86-f29c-4f56-985b-f5f0dea1c9b3)
 
 ### Code Snippet 17
 ```python
@@ -205,6 +214,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size = 0.2, strati
 ```python
 print(X.shape, X_train.shape, X_test.shape)
 ```
+![9](https://github.com/user-attachments/assets/40684831-502b-4e28-b59e-f3862086f1af)
 
 ### Code Snippet 19
 ```python
@@ -233,6 +243,7 @@ training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 ```python
 print('Accuracy score of the training data : ', training_data_accuracy)
 ```
+![10](https://github.com/user-attachments/assets/e64a758f-0411-45ef-bcce-eb1d6d8c2695)
 
 ### Code Snippet 24
 ```python
@@ -245,6 +256,7 @@ test_data_accuracy = accuracy_score(X_test_prediction, Y_test)
 ```python
 print('Accuracy score of the test data : ', test_data_accuracy)
 ```
+![11](https://github.com/user-attachments/assets/517e70dd-11bf-4051-b364-e52e3a342ade)
 
 ### Code Snippet 26
 ```python
@@ -273,7 +285,7 @@ if (prediction[0] == 0):
 else:
   print('The person is diabetic')
 ```
-
+![12](https://github.com/user-attachments/assets/2c7d635f-dcb1-487a-9a03-af6d639ad35e)
 
 
 
